@@ -1,5 +1,6 @@
 # GitCleanup
-Tiny tool to cleanup git repository. Delete merged and orphan branches
+Tiny tool to cleanup git repository. Delete merged and orphan branches.
+The tool searches for branches merged and left for at least a week (default value) and those which have some orphan development left for a longer period (6 months). 
 
 Usage is trivial:
 
