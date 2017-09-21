@@ -30,5 +30,5 @@ Extra options:
    -p, --Password   : Password.
    -r, --RunMode    : (List|Local|Full) run mode. Default is List.
    -f, --OutputFile : Output orphans to a file.
-   -e, --Mask       : Set of regular expression to mark branches for exclusion from processing.
+   -e, --Mask       : Set of regular expressions to mark branches for exclusion from processing.
 ```
