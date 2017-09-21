@@ -30,7 +30,7 @@ namespace GitCleanup
             parser.Setup(x => x.MaxDaysSinceOrphan)
                   .As('o', "Orphan")
                   .SetDefault(30 * 6)
-                  .WithDescription("Maximum days since orphan (has incomplete development). 180 days by default.");
+                  .WithDescription("Maximum days since orphaned (has incomplete development). 180 days by default.");
 
             parser.Setup(x => x.AuthType)
                   .As('a', "AuthType")
@@ -60,7 +60,7 @@ namespace GitCleanup
             parser.Setup(x => x.ExclusionMasks)
                   .As('e', "Mask")
                   .SetDefault(null)
-                  .WithDescription("Set of regular expression to mark branches for exclusion from processing.");
+                  .WithDescription("Set of regular expressions to mark branches for exclusion from processing.");
 
             return parser;
         }
