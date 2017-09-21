@@ -7,7 +7,7 @@ Usage is trivial:
 ```
 GitCleanup -d "path to local repo" -a Ntlm -e "Release/.*" "PROD$" "develop" -f orphans.txt    
 ```
-Checks repo and outputs candidate to orphans.txt
+Checks repo and outputs candidates to orphans.txt
 
 ## Basic Auth & delete remotes
 ```
